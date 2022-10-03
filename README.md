@@ -1,8 +1,3 @@
-## My Project: bouncing_ball_animation_css
+## bouncing_ball_animation_css
 
-Some text about my project.
-
-__Checklist__
-
-- [x] Completed Task
-- [ ] Incomplete Task
+[BananaCodez Bouncing Ball Animation in CSS](https://www.youtube.com/watch?v=eyn_HNRyDTg)
