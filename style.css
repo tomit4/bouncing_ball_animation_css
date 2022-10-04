@@ -17,6 +17,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: transparent;
+    /* border: 2px solid lime; */
     width: 100%;
     height: 300px;
     animation: stairs 3s linear infinite;
@@ -29,35 +30,42 @@
     border-radius: 50%;
     background-color: #758e48;
     left: -5px;
-    top: 20px;
+    top: 75px;
     animation: movement 3s linear infinite, squashing 3s linear infinite;
 }
 
 @keyframes movement {
+    /* drop */
     16% {
-        top: 300px;
+        top: 280px;
         animation-timing-function: ease-out;
     }
+    /* rise */
     32% {
-        top: 90px;
+        top: 80px;
         animation-timing-function: ease in;
     }
+    /* drop */
     48% {
         top: 220px;
         animation-timing-function: ease-out;
     }
+    /* rise */
     62% {
-        top: 100px;
-        animation-timing-function: ease in;
-    }
-    78% {
-        top: 120px;
-        animation-timing-function: ease-out;
-    }
-    94% {
         top: 110px;
         animation-timing-function: ease in;
     }
+    /* drop */
+    78% {
+        top: 155px;
+        animation-timing-function: ease-out;
+    }
+    /* rise */
+    94% {
+        top: 190px;
+        animation-timing-function: ease in;
+    }
+    /* drop */
     100% {
         top: -135px;
         left: 95%;
@@ -86,7 +94,7 @@
         top: 47%;
     }
     100% {
-        top: 90%;
+        top: 92%;
     }
 }
 
