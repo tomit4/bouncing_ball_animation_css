@@ -3,6 +3,11 @@
     /* border: 2px solid lime; */
 }
 
+@font-face {
+    font-family: Hacked;
+    src: url(./fonts/Hacked-KerX.ttf);
+}
+
 .box {
     width: 700px;
     height: 700px;
@@ -14,13 +19,14 @@
 .bouncing_ball_h1 {
     color: #ffffff;
     background-color: transparent;
-    position: relative;
+    position: absolute;
     text-align: center;
     display: flex;
     align-items: center;
-    /* font-family: ; */
+    font-family: Hacked;
+    font-size: 500%;
     justify-content: center;
-    margin: auto;
+    margin: 0 0 0 1.25em;
 }
 .outer {
     position: relative;
